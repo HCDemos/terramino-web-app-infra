@@ -2,6 +2,7 @@ output "us-east-2-url_by_ip" {
     description = "url ip to use to view the game"
     value = module.us-east-2.url_by_ip
 }
+
 output "us-east-2-url_with_name" {
     description = "url ip to use to view the game"
     value = module.us-east-2.url_with_name
