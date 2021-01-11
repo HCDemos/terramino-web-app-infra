@@ -1,5 +1,6 @@
 # main.tf
 # just a new comment
+# another comment
 module "us-east-2" {
   source = "app.terraform.io/HC-SE-Onboarding/terramino/aws"
   region = "us-east-2"
